@@ -6,6 +6,11 @@ const UseStateObject = () => {
     age:24, 
     message:"random message",
   });
+
+  // const [name,setName] = useState('peter')
+  // const [age,setAge] = useState('peter')
+  // const [message,setMessage] = useState('peter')
+
   const changeMessage = ()=>{
     setPerson({...person, message: 'hello world'})
   }
